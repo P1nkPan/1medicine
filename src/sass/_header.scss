@@ -1,0 +1,67 @@
+@charset "utf-8";
+$baohan: relative;
+$dingwei: absolute;
+.header-top {
+  background: #f1f1f1;
+  border-bottom: 1px solid #e9e9e9;
+  line-height: 36px;
+}
+.header-top .centered>div{
+    padding: 0 10px;
+}
+#header .hover {
+  //
+  background: #fff;
+  border: 1px solid #e5e5e5;
+}
+#header .arrows {
+  padding-right: 12px;
+  background: url(../images/common_sprite.png) no-repeat right 7px;
+}
+#header .drop {
+  position: $dingwei;
+  top: 35px;
+  
+  line-height: 2em;
+}
+/* 地址 */
+.express {
+  position: $baohan;
+}
+.address {
+  width: 210px;
+  padding: 5px 10px;
+  line-height: 2em;
+  // display: none;
+}
+/* 手机APP */
+.mobile {
+  position: $baohan;
+}
+.mobile > span {
+  display: inline-block;
+  width: 9px;
+  height: 12px;
+  background: url(../images/common_sprite.png) no-repeat right -113px;
+}
+.mobile .code {
+  width: 200px;
+  padding: 10px 5px;
+  left: -66px;
+}
+.mobile .code .logo {
+  width: 85px;
+  height: 85px;
+  background: url(../images/common_sprite.png) no-repeat -88px -223px;
+}
+.mobile .code .red {
+  color: red;
+}
+.my {
+  position: $baohan;
+  width: 74px;
+}
+.menu {
+    left: 0;
+    padding: 5px 10px;
+}

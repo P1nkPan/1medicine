@@ -1,0 +1,12 @@
+@charset "utf-8";
+$jvzhong:1190px;
+.centered{
+    width:$jvzhong;
+    margin:0 auto;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
